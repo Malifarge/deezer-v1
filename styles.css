@@ -1,0 +1,54 @@
+/* général */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* header */
+
+header{
+    padding: 20px 100px;
+    border-bottom: 5px solid #f9f9f9;
+}
+
+header img{
+    width: 100px;
+}
+
+header nav {
+    gap: 45px;
+}
+
+header nav a{
+    color: black;
+    font-weight: bold;
+}
+
+header nav button{
+    font-weight: bold;
+    border: 2px solid #2d96c8;
+    border-radius: 60px;
+    height: 40px;
+    width: 100px;
+    color: #2d96c8;
+    background: white;
+
+}
+
+.btnblue{
+    background: #2d96c8;
+    color: white;
+}
