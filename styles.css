@@ -52,3 +52,55 @@ header nav button{
     background: #2d96c8;
     color: white;
 }
+
+/* Premium */
+
+.premium{
+    margin: 0 100px;
+    height: 50vh;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.premium h2{
+    color: #ef5466;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 40px;
+}
+
+.htexte{
+    width: 50%;
+}
+
+.premium button {
+    border-radius: 60px;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.btnred{
+    background: #ef5466;
+    color: white;
+    border: 2px solid #ef5466;
+    margin-right: 10%;
+}
+
+.btnwhite {
+    background: white;
+    border:2px solid black;
+    color: black;
+}
+
+.hero{
+    width: 50%;
+    height: 100%;
+    background-image: url(/img/hero.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
