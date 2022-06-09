@@ -64,7 +64,7 @@ h1{
     font-weight: bold;
 }
 
-.premium h2{
+ h2{
     color: #ef5466;
     font-size: 30px;
     font-weight: bold;
@@ -109,12 +109,28 @@ h1{
 .pres{
     background: #f9f9f9;
     padding: 70px 200px;
+    align-items: flex-start;
 }
 
 .pres img{
-    width: 50%;
+    width: 300px;
 }
 
 .presT{
-    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.pres h2{
+    color: black;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pres p{
+    margin: 20px 0;
 }
