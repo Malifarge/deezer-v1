@@ -163,14 +163,14 @@ h3{
 }
 
 .prixd{
-    width: 30%;
+    width: 33%;
     height: 900px;
     flex-direction: column;
     justify-content: space-around
 }
 
 .croix{
-    width: 10%;
+    width: 5%;
 }
 
 .prixd div{
@@ -184,7 +184,7 @@ h3{
 
 .prix article{
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     margin: 0 300px 100px;
     color: #8e8e94;
 }
@@ -222,7 +222,7 @@ h3 span{
 }
 
 .prix button{
-    width: 200px;
+    width: 70%;
     height: 50px;
     border-radius: 50px;
     font-weight: bold;
@@ -260,3 +260,59 @@ h3 span{
     text-align: center;
     margin: 0 200px 60px ;
 }
+
+/* bonne affaires */
+
+.affaires article{
+    background: #f9f9f9;
+    margin-bottom: 15px;
+    height: 130px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.affaires span{
+    color:#ef5466;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.affaires h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.affaires a{
+    color: #2d96c8;
+    font-weight: bold;
+}
+
+.affaires p {
+    margin-bottom: 10px;
+}
+
+.affaires button{
+    background: white;
+    border: 2px solid black;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.btn1{
+    width: 10%;
+}
+
+.btn2{
+    width: 15%;
+}
+
+/* footer */
+
+
+
+select{
+    background: black;
+    color: white;
+}
+
