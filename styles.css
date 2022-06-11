@@ -309,10 +309,59 @@ h3 span{
 
 /* footer */
 
-
-
-select{
+footer{
+    padding: 100px;
     background: black;
     color: white;
 }
 
+h5{
+    color: #8e8e94;
+    margin-bottom: 10px;
+}
+
+select{
+    background: black;
+    color: white;
+    border: none;
+}
+
+footer a{
+    color: white;
+}
+
+.rectangle{
+    justify-content: center;
+    gap: 15px;
+}
+
+.rectangle article{
+    width: 20%;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.navsfooter{
+    align-items: flex-start;
+    margin-bottom: 150px}
+
+.navfoot{
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.logos img{
+    width: 100%;
+}
+
+.logos{
+    width: 20%;
+}
+
+.fin{
+    color: #8e8e94;
+    gap: 5px;
+}
