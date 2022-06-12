@@ -12,8 +12,13 @@ a{
 
 .flex{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.grand{
+    display: block;
 }
 
 /* header */
@@ -52,11 +57,14 @@ header nav button{
     color: white;
 }
 
+.petit{
+    display: none;
+}
+
 /* Premium */
 
 .premium{
     margin: 0 100px;
-    height: 50vh;
 }
 
 h1{
@@ -97,7 +105,7 @@ h1{
 
 .hero{
     width: 50%;
-    height: 100%;
+    height: 400px;
     background-image: url(/img/hero.png);
     background-repeat: no-repeat;
     background-position: top;
@@ -160,6 +168,12 @@ h3{
 
 .prix{
     text-align: center;
+    flex-direction: column;
+}
+
+.prix h2{
+    color: black;
+    margin-top: 60px;
 }
 
 .prixd{
@@ -364,4 +378,108 @@ footer a{
 .fin{
     color: #8e8e94;
     gap: 5px;
+}
+
+/* media query */
+
+@media (max-width: 900px){
+
+    .petit{
+        display: block;
+        width: 10%;
+    }
+
+    .grand{
+        display: none;
+    }
+
+    .tete{
+        justify-content: end;
+        gap: 40%;
+    }
+
+    .flex2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btnwhite{
+        margin: 30px 0 0;
+    }
+
+    section{
+        text-align: center;
+    }
+
+    .premium,.pres{
+        margin: 0 5px;
+        padding: 0;
+        width: 100%;
+   }
+
+   .htexte{
+    width: 100%;
+   }
+
+   .premium button{
+    width: 90%;
+   }
+
+   .presT{
+    align-items: center;
+    text-align: start;
+   }
+
+   .toujours{
+    flex-direction: column-reverse;
+    padding: 40px 0;
+   }
+
+   .imgtl{
+    width: 100%;
+    gap: 0;
+   }
+
+   .prix article{
+    margin: 0;
+   }
+
+   .prixd{
+    width: 70%;
+   }
+
+   .recommande{
+    width: 100%;
+    margin-top: 30px;
+   }
+
+   .det{
+    margin: 50px 10px 40px;
+   }
+
+   .btn1{
+    width: 60%;
+   }
+
+   .btn2{
+    width: 70%;
+   }
+
+   .navsfooter{
+    gap: 100px;
+   }
+
+   .deezer{
+    width: 50%;
+    order: -1;
+   }
+
+   .logos{
+    width: 50%;
+   }
+
+   .final{
+    gap: 60px;
+   }
+
 }
